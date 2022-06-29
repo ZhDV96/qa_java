@@ -14,4 +14,4 @@
 4.	Используя команду git clone git@github.com:username/qa_java.git в терминале, скачайте себе данный репозиторий. Укажите имя своего аккаунта на GitHub вместо username.
 ### Отчёт с jacoco.
 1.	В IntelliJ IDEA с подключенным Maven запустите выполнение автотестов командой mvn verify.
-2.	В консоли IntelliJ IDEA перейдите в папку проекта и выполните команду allure serve target/surefire-reports/. Allure отобразит отчёт, который сгенерировал плагин maven-surefire-plugin. Откроется окно браузера с отчётом.
+2.	Найдите в папке target/site/jacoco/ файл index.html, нажмите на него правой кнопкой мыши и выбери Open In — Browser — и выберите нужный браузер.
